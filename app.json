@@ -19,7 +19,7 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.croon",
       "config": {
-        "googleMapsApiKey": "AIzaSyCLqbGNJ_4EtsSaaytls8Rn0xyBRpCrJkQ"
+        "googleMapsApiKey": ""
       }
     },
     "android": {
@@ -30,14 +30,14 @@
       "package": "com.croon",
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyCLqbGNJ_4EtsSaaytls8Rn0xyBRpCrJkQ"
-        },
-        "permissions": [
-          "ACCESS_COARSE_LOCATION",
-          "ACCESS_FINE_LOCATION",
-          "FOREGROUND_SERVICE"
-        ]
-      }
+          "apiKey": ""
+        }
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "FOREGROUND_SERVICE"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
