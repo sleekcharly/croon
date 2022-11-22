@@ -14,16 +14,29 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.croon",
+      "config": {
+        "googleMapsApiKey": "AIzaSyCLqbGNJ_4EtsSaaytls8Rn0xyBRpCrJkQ"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.croon",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCLqbGNJ_4EtsSaaytls8Rn0xyBRpCrJkQ"
+        },
+        "permissions": [
+          "ACCESS_COARSE_LOCATION",
+          "ACCESS_FINE_LOCATION",
+          "FOREGROUND_SERVICE"
+        ]
       }
     },
     "web": {
