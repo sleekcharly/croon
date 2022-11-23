@@ -6,8 +6,8 @@ dotenv.config();
 
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
-  slug: 'my-app',
-  name: 'My App',
+  slug: 'croon',
+  name: 'croon',
   ios: {
     supportsTablet: true,
     bundleIdentifier: 'com.croon',
