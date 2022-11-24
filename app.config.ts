@@ -23,7 +23,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     package: 'com.croon',
     config: {
       googleMaps: {
-        apiKey: process.env.GOOGLE_CLOUD_API_KEY,
+        apiKey: process.env.GOOGLE_MAP_API_KEY,
       },
     },
     permissions: [
